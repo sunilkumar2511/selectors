@@ -5,8 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    table, tr, td{
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+    td[class^=bo]{
+        height: 100px;
+        width: 150px;
+    }
+    #row1{
+        background-color: rgb(103, 30, 142);
+    }
+    .box5, .box8{
+        background-color: red;
+    }
+    td.box6{
+        background-color: orange;
+    }
+    .box14, .box11, .box16, .box9{
+        background-color: brown;
+    }   
+</style>
 <body>
-    <h1>hello</h1>
-    <img src="https://upload.wikimedia.org/wikipedia/en/c/c0/NezukoKamado.png" alt="">
+    <table>
+        <tr id="row1">
+            <td class="box1"></td>
+            <td class="box2"></td>
+            <td class="box3"></td>
+            <td class="box4"></td>
+        </tr>
+        <tr>
+            <td class="box5"></td>
+            <td class="box6"></td>
+            <td class="box7"></td>
+            <td class="box8"></td>
+        </tr>
+        <tr>
+            <td class="box9"></td>
+            <td class="box10"></td>
+            <td class="box11"></td>
+            <td class="box12"></td>
+        </tr>
+        <tr>
+            <td class="box13"></td>
+            <td class="box14"></td>
+            <td class="box15"></td>
+            <td class="box16"></td>
+        </tr>
+    </table>
 </body>
 </html>
